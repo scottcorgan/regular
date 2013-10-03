@@ -20,12 +20,12 @@ console.log(regular.email.test('someemail@gmail.com')) // outputs true
 
 #### Include Expressions
 
-* email
-* url
-* ip address
-* credit cards *(visa, mastercard, amex, discover)*
-* alpha numerics
-* US social security numbers
+* ` email `
+* ` url `
+* ` ip address `
+* ` credit cards ` *(visa, mastercard, amex, discover)*
+* ` alpha numerics `
+* ` US social security numbers `
 * **(More to come. Submit a pull request!)**
 
 
