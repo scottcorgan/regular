@@ -20,7 +20,14 @@ console.log(regular.email.test('someemail@gmail.com')) // outputs true
 
 #### Include Expressions
 
-* ` email ` - /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+* email
+* url
+* ip address
+* credit cards *(visa, mastercard, amex, discover)*
+* alpha numerics
+* US social security numbers
+* **(More to come. Submit a pull request!)**
+
 
 ## Test
 
