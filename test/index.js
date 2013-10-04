@@ -48,3 +48,12 @@ test('validates US social security number', function (t) {
   
   t.end();
 });
+
+test('validates url slugs', function (t) {
+  t.ok(regular.slug.test('some-slug'));
+  t.notOk(regular.slug.test('some_notslug'));
+  t.notOk(regular.slug.test('!wrong'));
+  t.notOk(regular.slug.test('with a space'));
+  
+  t.end();
+});
