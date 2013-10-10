@@ -22,6 +22,7 @@ console.log(regular.email.test('someemail@gmail.com')) // outputs true
 
 * ` email `
 * ` url `
+* ` slug `
 * ` ip address `
 * ` credit cards ` *(visa, mastercard, amex, discover)*
 * ` alpha numerics `
