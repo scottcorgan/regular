@@ -17,6 +17,15 @@ test('validates url', function (t) {
   t.end();
 });
 
+test('validates domain', function (t) {
+  t.ok(regular.domain.test('www.npm.org'));
+  t.ok(regular.domain.test('www.npm.co.uk'));
+  t.notOk(regular.domain.test('http://www.npm.org'));
+  t.notOk(regular.domain.test('npm.something'));
+  
+  t.end();
+});
+
 test('validates ip address', function (t) {
   t.ok(regular.ipAddress.test('192.168.0.1'));
   t.notOk(regular.ipAddress.test('256.168.0.1'));
