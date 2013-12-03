@@ -66,3 +66,11 @@ test('validates url slugs', function (t) {
   
   t.end();
 });
+
+test('validates number', function (t) {
+  t.ok(regular.number.test(1));
+  t.ok(regular.number.test('1'));
+  t.notOk(regular.number.test('a'));
+  
+  t.end();
+});
