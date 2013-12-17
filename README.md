@@ -29,6 +29,7 @@ console.log(regular.email.test('someemail@gmail.com')) // outputs true
 * ` US social security numbers `
 * ` alpha numerics `
 * ` number `
+* ` basicAuth `
 * **(More to come. Submit a pull request!)**
 
 

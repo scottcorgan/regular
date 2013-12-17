@@ -7,7 +7,8 @@ var regular = {
   ssn: /^([0-9]{3}[-]*[0-9]{2}[-]*[0-9]{4})*$/,
   slug: /^[a-z0-9-]+$/,
   alphaNumeric: /^[a-zA-Z0-9]+$/,
-  number: /^[0-9]+$/
+  number: /^[0-9]+$/,
+  basicAuth: /^\S+\:\S+$/
 };
 
 module.exports = regular;

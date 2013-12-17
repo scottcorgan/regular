@@ -74,3 +74,10 @@ test('validates number', function (t) {
   
   t.end();
 });
+
+test('basic auth', function (t) {
+  t.ok(regular.basicAuth.test('username:password'));
+  t.notOk(regular.basicAuth.test('usernamepassword'));
+  
+  t.end();
+});
