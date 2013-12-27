@@ -8,7 +8,8 @@ var regular = {
   slug: /^[a-z0-9-]+$/,
   alphaNumeric: /^[a-zA-Z0-9]+$/,
   number: /^[0-9]+$/,
-  basicAuth: /^\S+\:\S+$/
+  basicAuth: /^\S+\:\S+$/,
+  html: /<([a-z]+) *[^/]*?>/
 };
 
 module.exports = regular;

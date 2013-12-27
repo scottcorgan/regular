@@ -81,3 +81,9 @@ test('basic auth', function (t) {
   
   t.end();
 });
+
+test('is html', function (t) {
+  t.ok(regular.html.test('<div></div>'));
+  t.notOk(regular.html.test('.selector'));
+  t.end();
+});

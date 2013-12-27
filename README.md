@@ -30,6 +30,7 @@ console.log(regular.email.test('someemail@gmail.com')) // outputs true
 * ` alpha numerics `
 * ` number `
 * ` basicAuth `
+* ` html ` (is this html?)
 * **(More to come. Submit a pull request!)**
 
 

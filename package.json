@@ -1,6 +1,6 @@
 {
   "name": "regular",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A collection of Javascript regular expressions",
   "main": "index.js",
   "scripts": {
